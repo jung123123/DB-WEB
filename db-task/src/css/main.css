@@ -1,0 +1,59 @@
+.title{             /* app div*/ 
+    text-align: right;
+    font-size: 36px;
+    
+}
+.scroll-container {
+    overflow-y: auto; /* 수직 스크롤바 표시 */
+    max-height: 500px; /* 스크롤바가 나타날 최대 높이 설정 */
+  }
+
+.gridlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* 각 항목 사이의 간격 조정 */
+  }
+
+.bag{               /* 모든 div*/ 
+    font-size: 30px;   
+}
+.appbottom{
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:#CCCCCC;
+}
+
+input {
+    width:200px;
+    height:50px;
+    font-size:20px;
+}
+button{
+    width:200px;
+    height:50px;
+    font-size:20px;
+}
+
+span{
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+span::after {
+    content: "\0000a0\0000a0"; /* 간격을 조정할 구분자 문자열 */
+   
+}
+
+.underbtn{
+    text-align: center;
+    margin-top:100px;
+}
+
+.btnorder{
+    
+    width:50px;
+    height:50px;
+
+}
